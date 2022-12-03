@@ -1,0 +1,24 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  width: 100wh;
+  height: 100vh;
+
+  background-color: grey;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: rgb(101, 159, 216);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}

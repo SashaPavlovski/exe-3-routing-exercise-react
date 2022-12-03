@@ -1,0 +1,13 @@
+a {
+  display: flex;
+  gap: 5px;
+  margin-top: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+@media screen and (max-width: 500px) {
+  a div {
+    color: rgb(101, 159, 216);
+  }
+}
